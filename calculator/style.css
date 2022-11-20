@@ -1,0 +1,47 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height:100vh;
+}
+
+.btn{
+    height:70px;
+    width:70px;
+    margin:15px;
+}
+
+.clear{
+    border:50px solid blue;
+    border-radius:10px;
+}
+.number{
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+
+.displayScreen{
+    border:1px solid pink;
+    width:315px;
+    height:75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous{
+    font-size:20px;
+}
+.current{
+    font-size:30px;
+}
+
+.first-row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
